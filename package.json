@@ -1,19 +1,19 @@
 {
-  "name": "brave-mcp-server",
+  "name": "@jujijigo/brave-search-mcp",
   "version": "1.0.3",
   "description": "Brave Search API 的 MCP 服务器，把网页搜索端点暴露成 web_search 工具",
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kywrl/brave-mcp-server.git"
+    "url": "git+https://github.com/kywrl/brave-mcp.git"
   },
-  "homepage": "https://github.com/kywrl/brave-mcp-server#readme",
+  "homepage": "https://github.com/kywrl/brave-mcp#readme",
   "bugs": {
-    "url": "https://github.com/kywrl/brave-mcp-server/issues"
+    "url": "https://github.com/kywrl/brave-mcp/issues"
   },
   "bin": {
-    "brave-mcp-server": "bin/brave-mcp-server.js"
+    "brave-search-mcp": "bin/brave-search-mcp.js"
   },
   "main": "./src/server.js",
   "exports": {
@@ -26,11 +26,14 @@
     "README.md",
     "LICENSE"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=18"
   },
   "scripts": {
-    "start": "node bin/brave-mcp-server.js"
+    "start": "node bin/brave-search-mcp.js"
   },
   "keywords": [
     "mcp",
