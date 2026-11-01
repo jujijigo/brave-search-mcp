@@ -1,5 +1,5 @@
 /**
- * brave-mcp
+ * brave-search-mcp
  *
  * 把 Brave Search API 的 Web Search 端点（GET /res/v1/web/search）暴露成 MCP 工具。
  *

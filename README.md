@@ -1,4 +1,4 @@
-# brave-mcp
+# brave-search-mcp
 
 Brave Search API 的 [MCP](https://modelcontextprotocol.io) 服务器。把 Brave 的
 Web Search 端点（`GET /res/v1/web/search`）暴露成单个 `web_search` 工具，供
@@ -105,7 +105,7 @@ printf '%s\n' \
 把配置里的 `args` 指向仓库目录即可：
 
 ```json
-"args": ["-y", "D:/workspace/brave-mcp"]
+"args": ["-y", "D:/workspace/brave-search-mcp"]
 ```
 
 注意别在仓库目录里执行这条 npx——npx 会优先解析当前目录的同名包，报

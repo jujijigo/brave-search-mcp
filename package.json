@@ -6,11 +6,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kywrl/brave-mcp.git"
+    "url": "git+https://github.com/jujijigo/brave-search-mcp.git"
   },
-  "homepage": "https://github.com/kywrl/brave-mcp#readme",
+  "homepage": "https://github.com/jujijigo/brave-search-mcp#readme",
   "bugs": {
-    "url": "https://github.com/kywrl/brave-mcp/issues"
+    "url": "https://github.com/jujijigo/brave-search-mcp/issues"
   },
   "bin": {
     "brave-search-mcp": "bin/brave-search-mcp.js"
